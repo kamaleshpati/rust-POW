@@ -1,6 +1,3 @@
-# rust-blockchain
-
-![example workflow](https://github.com/mrnaveira/rust-blockchain/actions/workflows/build.yaml/badge.svg) ![example workflow](https://github.com/mrnaveira/rust-blockchain/actions/workflows/lint.yaml/badge.svg) ![example workflow](https://github.com/mrnaveira/rust-blockchain/actions/workflows/test.yaml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/mrnaveira/rust-blockchain/badge.svg?service=github)](https://coveralls.io/github/mrnaveira/rust-blockchain)
 
 A Proof of Work blockchain written in Rust. For educational purposes only.
 
@@ -10,12 +7,9 @@ Features:
 * Synchronizes new blocks with peer nodes in a decentralized network
 * Provides a REST API to retrieve the blocks and add transactions
 
-## Getting Started
-You will need Rust and Cargo installed.
 
 ```bash
 # Download the code
-$ git clone https://github.com/mrnaveira/rust-blockchain
 $ cd rust-blockchain
 
 # Run all tests
